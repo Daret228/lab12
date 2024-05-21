@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+
+.navLinks a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navLinks a:hover {
+    color: #f67c01;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.requestButton,
+.calculationButton {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;    
+}
+
+.requestButton img,
+.calculationButton img {
+    margin-right: 5px;
+    
+}
+
+.requestButton {
+    background-color: #f67c01;
+    color: white;
+}
+
+.calculationButton {
+    background-color: #2e2e90; /* Dark blue color */
+    color: white;
+}
+
+.activeLink {
+    color: #f67c01;
+    font-weight: bold;
+}
